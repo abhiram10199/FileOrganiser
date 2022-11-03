@@ -2,10 +2,10 @@ import os
 from pathlib import Path
 
 Legend = {
-		'Docutments':['.pdf', '.txt'. '.docx', '.csv']
-		'Pictures':['.png', '.jpg', '.jpeg', '.webp','.gif']
-		'Music':['.mp3', '.m4a', '.m4b']
-		'Video':['.mp4', '.vlc'. '.mkv']
+	'Docutments':['.pdf', '.txt'. '.docx', '.csv']
+	'Pictures':['.png', '.jpg', '.jpeg', '.webp','.gif']
+	'Music':['.mp3', '.m4a', '.m4b']
+	'Video':['.mp4', '.vlc'. '.mkv']
 }
 
 def WhichDir(hint):
