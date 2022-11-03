@@ -15,13 +15,13 @@ def WhichDir(hint):
     
 def OrganiseDirectory():
   for item in os.scandir():
-    if item.is_dir(): continue           # checks whether 'item' is a file or a folder. If latter, skips and picks up another item
+    if item.is_dir(): continue             # checks whether 'item' is a file or a folder. If latter, skips and picks up another item
   
   FilePath = Path(item)                    # gets the path of the file
   FileType = filePath.suffix.lower()       # gets the type(file) from the extension
   Directory = WhichDir(fileType)           # assigns seatination directory to variable
   
-  if Directory == None: 									 # if file extension isn't given in the Legend, skip
+  if Directory == None: 	           # if file extension isn't given in the Legend, skip
 		continue
 		
   DirectoryPath = Path(Directory)					 
